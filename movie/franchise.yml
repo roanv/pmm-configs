@@ -2,6 +2,7 @@ templates:
   franchise:
     collection_order: release
     collection_mode: hide_items
+    tmdb_collection_details: <<value>>
     minimum_items: 2
     sync_mode: sync
     cache_builders: 1
@@ -9,13 +10,9 @@ templates:
 dynamic_collections:
   TMDb Collections:
     type: tmdb_collection
-    template: franchise
     remove_suffix: "Collection"
-        addons:
+    template: franchise
+    addons:
       8091: # Alien
         - 135416 # Prometheus
-
-
-
-    
 
