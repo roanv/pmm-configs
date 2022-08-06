@@ -1,5 +1,5 @@
 external_templates:
-  git: PMM/templates
+  repo: templates
   template_variables:
     collection_section: "11"
     use_separator: false
