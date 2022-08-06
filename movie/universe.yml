@@ -1,8 +1,16 @@
-external_templates:
-  repo: templates
-  template_variables:
-    collection_section: "11"
+templates:
+  universe:
+    default:
+      collection_section: "11"
+      sort: <<collection_name>>
+    optional:
+      - collection_mode
+      - name_mapping
     collection_mode: hide_items
+    collection_order: custom
+    sort_title: "!<<collection_section>> <<sort>>"
+    cache_builders: 1
+    sync_mode: sync
 
 collections:
   Star Wars Universe:
