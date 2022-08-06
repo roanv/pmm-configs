@@ -14,7 +14,7 @@ collections:
     tautulli_watched:
       list_days: 30
       list_size: 30
-    mdblist_list: 
+    mdblist_list:
       url: https://mdblist.com/lists/linaspurinis/top-watched-movies-of-the-week
       limit: 30
     ## SMART LABEL ##
@@ -27,7 +27,7 @@ collections:
     url_poster: https://github.com/meisnate12/Plex-Meta-Manager-Images/blob/master/chart/Plex%20Popular.jpg?raw=true
     visible_home: true
     visible_shared: true
-    sort_title: !!Trending
+    sort_title: !01_Trending
     collection_mode: hide
     collection_filtering: user
     sync_mode: sync
