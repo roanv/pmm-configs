@@ -1,7 +1,7 @@
 external_templates:
   git: PMM/templates
   template_variables:
-    collection_section: "11"
+    collection_section: "12"
     use_separator: false
     collection_mode: hide_items
 
