@@ -6,11 +6,17 @@ libraries:
          - repo: movie/top
          - repo: movie/universe
       - repo: movie/franchise
+    operations:
+      mass_user_rating_update: mdb
+      mass_genre_update: tmdb
   TV Shows:
     metadata_path:
          - repo: movie/recent
          - repo: movie/trending
          - repo: movie/top
+    operations:
+      mass_user_rating_update: mdb
+      mass_genre_update: tvdb
 settings:
   cache: true
   cache_expiration: 60
