@@ -1,8 +1,8 @@
 templates:
   franchise:
+    tmdb_collection_details: <<value>>
     cache_builders: 1
     minimum_items: 2
-    tmdb_collection_details: <<value>>
     sync_mode: sync
     collection_order: release
     collection_mode: hide_items
