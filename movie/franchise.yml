@@ -1,0 +1,23 @@
+# templates:
+#   franchise:
+#     default:
+#       collection_order: release
+#       sort: <<collection_name>>
+#     optional:
+#       - collection
+#       - movie
+#       - sort_title
+#     collection_mode: hide_items
+#     collection_order: <<collection_order>>
+#     tmdb_movie: <<movie>>
+#     sort_title: "<<sort_title>>"
+#     cache_builders: 1
+#     sync_mode: sync
+
+dynamic_collections:
+  TMDb Collections:
+    type: tmdb_collection
+    remove_suffix: "Collection"
+    minimum_items: 2
+    sync_mode: sync
+    cache_builders: 1

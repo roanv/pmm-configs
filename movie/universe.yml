@@ -3,9 +3,6 @@ templates:
     default:
       collection_section: "11"
       sort: <<collection_name>>
-    optional:
-      - collection_mode
-      - name_mapping
     collection_mode: hide_items
     collection_order: custom
     sort_title: "!<<collection_section>> <<sort>>"
