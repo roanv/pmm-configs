@@ -12,3 +12,6 @@ dynamic_collections:
     type: tmdb_collection
     remove_suffix: "Collection"
     template: franchise
+    addons:
+      8091: # Alien
+        - 135416 # Prometheus
