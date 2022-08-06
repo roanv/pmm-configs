@@ -1,14 +1,21 @@
 templates:
-  franchise:
+  collection:
+    # optional:
+    #   - collection
+    #   - movie
+    #   - radarr_add_missing
+    #   - name_mapping
+    #   - sort_title
+    cache_builders: 1
+    minimum_items: 2
+    tmdb_collection_details: <<value>>
+    # tmdb_movie: <<movie>>
+    sync_mode: sync
     collection_order: release
     collection_mode: hide_items
-    tmdb_collection_details: <<value>>
-    minimum_items: 2
-    sync_mode: sync
-    cache_builders: 1
 
 dynamic_collections:
   TMDb Collections:
     type: tmdb_collection
     remove_suffix: "Collection"
-    template: franchise
+    template: collection
