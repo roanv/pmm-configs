@@ -1,5 +1,5 @@
 collections:
-  Trending TV:
+  Trending Shows:
     trakt_chart:
       - chart: trending
         limit: 30
@@ -11,15 +11,15 @@ collections:
     tautulli_watched:
       list_days: 30
       list_size: 30
-#    smart_label: random
+    #    smart_label: random
     sync_mode: sync
-#    collection_mode: hide
-#    sort_title: ~~Trending
-#    url_poster: https://github.com/meisnate12/Plex-Meta-Manager-Images/blob/master/chart/Trakt%20Trending.jpg?raw=true
-#  Trending TV:
-#    plex_all: true
-#    filters:
-#      label: "Trending TV Pool"
+    #    collection_mode: hide
+    #    sort_title: ~~Trending
+    #    url_poster: https://github.com/meisnate12/Plex-Meta-Manager-Images/blob/master/chart/Trakt%20Trending.jpg?raw=true
+    #  Trending TV:
+    #    plex_all: true
+    #    filters:
+    #      label: "Trending TV Pool"
     smart_label:
       all:
         label: <<smart_label>>

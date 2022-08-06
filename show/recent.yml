@@ -1,5 +1,5 @@
 collections:
-  Recently Released TV:
+  Recently Released Shows:
     plex_all: true
     filters:
       released: 150

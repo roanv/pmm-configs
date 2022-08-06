@@ -1,5 +1,5 @@
 collections:
-  Top Rated TV:
+  Top Rated Shows:
     ## BUILDER ##
     imdb_chart: top_shows
     mdblist_list: https://mdblist.com/lists/roman22/toprated

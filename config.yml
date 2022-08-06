@@ -6,6 +6,11 @@ libraries:
          - repo: movie/top
          - repo: movie/universe
       - repo: movie/franchise
+  TV Shows:
+    metadata_path:
+         - repo: movie/recent
+         - repo: movie/trending
+         - repo: movie/top
 settings:
   cache: true
   cache_expiration: 60
