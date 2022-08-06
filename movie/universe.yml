@@ -3,8 +3,6 @@ templates:
     default:
       collection_section: "11"
       sort: <<collection_name>>
-    optional:
-      - name_mapping
     collection_mode: hide_items
     collection_order: release
     sort_title: "!<<collection_section>> <<sort>>"
@@ -28,11 +26,11 @@ collections:
     template: { name: universe }
     trakt_list: https://trakt.tv/users/dybro/lists/lord-of-the-rings
 
-  "Alien / Predator":
-    template:
-      template: { name: universe }
+  Weyland Universe:
+    template: { name: universe }
     tmdb_collection:
-      - 399
-      - 8091
-      - 135416
-    name_mapping: Alien Predator
+      - 399 # predator
+      - 8091 # alien
+      - 115762 # alien vs predator
+      - 135416 # prometheus
+      - 422837 # blade runner
