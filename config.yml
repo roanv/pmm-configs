@@ -1,0 +1,105 @@
+libraries:
+  Movies:
+    metadata_path:
+      #    - repo: movie/recent
+      #    - repo: movie/trending
+      #    - repo: movie/top
+      #    - repo: movie/universe
+      - repo: movie/franchise
+settings:
+  cache: true
+  cache_expiration: 60
+  asset_directory:
+    - config/assets
+  asset_folders: true
+  asset_depth: 1
+  create_asset_folders: false
+  prioritize_assets: false
+  dimensional_asset_rename: false
+  download_url_assets: false
+  show_missing_season_assets: false
+  show_missing_episode_assets: false
+  show_asset_not_needed: true
+  sync_mode: append
+  minimum_items: 0
+  default_collection_order:
+  delete_below_minimum: true
+  delete_not_scheduled: true
+  run_again_delay: 2
+  missing_only_released: false
+  only_filter_missing: false
+  show_unmanaged: true
+  show_filtered: false
+  show_options: false
+  show_missing: true
+  show_missing_assets: true
+  save_report: false
+  tvdb_language: eng
+  ignore_ids:
+  ignore_imdb_ids:
+  item_refresh_delay: 0
+  playlist_sync_to_user: all
+  playlist_report: false
+  verify_ssl: true
+  custom_repo: https://github.com/roanvonb/pmm-configs/tree/master/
+  check_nightly: false
+plex:
+  url: http://localhost:32400
+  token: dhB6uH9owSfzTNVu-AHp
+  timeout: 60
+  clean_bundles: true
+  empty_trash: true
+  optimize: true
+tmdb:
+  apikey: d420c8c6f1c11fe812b0b1f1d64d483d
+  language: en
+  cache_expiration: 60
+  region:
+tautulli:
+  url: http://localhost:8181/tautulli
+  apikey: 8MjaAnlIhQLUeo9bYxfSK7-42Ku6WH61
+mdblist:
+  apikey: 8zbg4mzskcd0vcxvnlsvxrpyd
+  cache_expiration: 60
+radarr:
+  url: http://localhost:7878/radarr
+  token: 2a1ec9ed53ca4ba08e8dbc99ecfb112a
+  add_missing: false
+  add_existing: false
+  root_folder_path: /home/roman/media/film
+  monitor: true
+  availability: announced
+  quality_profile: Ombi
+  tag: pmm
+  search: true
+  radarr_path:
+  plex_path:
+  upgrade_existing: false
+sonarr:
+  url: http://localhost:8989/sonarr
+  token: fb5cb58f77ea48c8b48c90ab3580d3b9
+  add_missing: false
+  add_existing: false
+  root_folder_path: /home/roman/media/tv
+  monitor: all
+  quality_profile: Ombi
+  language_profile: English
+  series_type: standard
+  season_folder: false
+  tag: pmm
+  search: true
+  cutoff_search: false
+  sonarr_path:
+  plex_path:
+  upgrade_existing: false
+trakt:
+  client_id: 0ceeb6ca64e9f25eb72b99e61dd5eacf3e89d58a117f0d4d39d234d410164914
+  client_secret: 22cecc5147b001e42b8a23933c4be392fbee2e405e7410ed90495d092c829338
+  pin:
+  authorization:
+    access_token: a50957d27bbd5e79407bd80945cff5ddd8617b2a7f692332acc0b494e305647e
+    token_type: Bearer
+    expires_in: 7889238
+    refresh_token: d94e32e17843667c653cd24bb6220bc44d85e3a494e2ae13fa356c5ec8c840c1
+    scope: public
+    created_at: 1659189199
