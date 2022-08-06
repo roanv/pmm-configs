@@ -3,8 +3,10 @@ templates:
     default:
       collection_section: "11"
       sort: <<collection_name>>
+    optional:
+      - name_mapping
     collection_mode: hide_items
-    collection_order: custom
+    collection_order: release
     sort_title: "!<<collection_section>> <<sort>>"
     cache_builders: 1
     sync_mode: sync
@@ -29,5 +31,8 @@ collections:
   "Alien / Predator":
     template:
       template: { name: universe }
-    trakt_list: https://trakt.tv/users/donxy/lists/alien-predator-timeline
+    tmdb_collection:
+      - 399
+      - 8091
+      - 135416
     name_mapping: Alien Predator
