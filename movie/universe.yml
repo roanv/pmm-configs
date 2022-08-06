@@ -6,17 +6,17 @@ external_templates:
 
 collections:
   Star Wars Universe:
-    template: universe
+    template: { name: universe }
     trakt_list: https://trakt.tv/users/zorge88/lists/star-wars
 
   Marvel Cinematic Universe:
-    template: universe
+    template: { name: universe }
     trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
 
   Wizarding World:
-    template: universe
+    template: { name: universe }
     trakt_list: https://trakt.tv/users/strangerer/lists/harry-potter
 
   Middle Earth:
-    template: universe
+    template: { name: universe }
     trakt_list: https://trakt.tv/users/dybro/lists/lord-of-the-rings
