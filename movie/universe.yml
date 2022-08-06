@@ -25,3 +25,9 @@ collections:
   Middle Earth:
     template: { name: universe }
     trakt_list: https://trakt.tv/users/dybro/lists/lord-of-the-rings
+
+  "Alien / Predator":
+    template:
+      template: { name: universe }
+    trakt_list: https://trakt.tv/users/donxy/lists/alien-predator-timeline
+    name_mapping: Alien Predator
