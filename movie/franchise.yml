@@ -1,12 +1,21 @@
-dynamic_collections:
-  TMDb Collections:
-    type: tmdb_collection
-    remove_suffix: "Collection"
+templates:
+  franchise:
+    collection_order: release
+    collection_mode: hide_items
     minimum_items: 2
     sync_mode: sync
     cache_builders: 1
-    collection_order: release
-    collection_mode: hide_items
-    addons:
+
+dynamic_collections:
+  TMDb Collections:
+    type: tmdb_collection
+    template: franchise
+    remove_suffix: "Collection"
+        addons:
       8091: # Alien
         - 135416 # Prometheus
+
+
+
+    
+
