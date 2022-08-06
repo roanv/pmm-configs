@@ -2,7 +2,7 @@ templates:
   franchise:
     tmdb_collection_details: <<value>>
     cache_builders: 1
-    minimum_items: 2
+    minimum_items: 1
     sync_mode: sync
     collection_order: release
     collection_mode: hide_items
