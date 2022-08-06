@@ -1,0 +1,33 @@
+collections:
+  Trending TV:
+    trakt_chart:
+      - chart: trending
+        limit: 30
+    tmdb_trending_weekly: 30
+    tmdb_trending_daily: 30
+    tautulli_popular:
+      list_days: 30
+      list_size: 30
+    tautulli_watched:
+      list_days: 30
+      list_size: 30
+#    smart_label: random
+    sync_mode: sync
+#    collection_mode: hide
+#    sort_title: ~~Trending
+#    url_poster: https://github.com/meisnate12/Plex-Meta-Manager-Images/blob/master/chart/Trakt%20Trending.jpg?raw=true
+#  Trending TV:
+#    plex_all: true
+#    filters:
+#      label: "Trending TV Pool"
+    smart_label:
+      all:
+        label: <<smart_label>>
+        unplayed_episodes: true
+      limit: 24
+    url_poster: https://github.com/meisnate12/Plex-Meta-Manager-Images/blob/master/chart/Plex%20Popular.jpg?raw=true
+    visible_home: true
+    visible_shared: true
+    sort_title: !!Trending
+    collection_mode: hide
+    collection_filtering: user

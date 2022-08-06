@@ -1,0 +1,54 @@
+external_templates:
+  git: PMM/templates
+  template_variables:
+    collection_section: "11"
+    use_separator: false
+    collection_mode: hide_items
+
+templates:
+  multi-franchise:
+    optional:
+      - name_mapping
+    cache_builders: 1
+    sync_mode: sync
+    collection_order: release.asc
+
+collections:
+  Wizarding World:
+    template:
+      - name: shared
+      - name: multi-franchise
+    trakt_list: https://trakt.tv/users/strangerer/lists/harry-potter
+    radarr_add_missing: true
+
+  Star Wars Universe:
+    template:
+      - name: shared
+      - name: multi-franchise
+    trakt_list: https://trakt.tv/users/zorge88/lists/star-wars
+    radarr_add_missing: true
+
+  Middle Earth:
+    template:
+      - name: shared
+      - name: multi-franchise
+    trakt_list: https://trakt.tv/users/dybro/lists/lord-of-the-rings
+    radarr_add_missing: true
+
+  Marvel Cinematic Universe:
+    template:
+      - name: shared
+      - name: multi-franchise
+    trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
+    radarr_add_missing: true
+
+## DELETE ##
+
+  Rocky / Creed:
+    name_mapping: Rocky Creed
+
+  The Mummy Universe:
+    name_mapping: The Mummy Universe
+
+  "Alien / Predator":
+    name_mapping: Alien Predator

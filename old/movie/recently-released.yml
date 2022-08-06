@@ -1,0 +1,19 @@
+collections:
+  Recently Released Movies:
+    plex_all: true
+    filters:
+      released: 150
+    collection_mode: hide
+    visible_library: true
+    collection_filtering: user
+    visible_home: true
+    visible_shared: true
+    url_poster: https://github.com/meisnate12/Plex-Meta-Manager-Images/blob/master/chart/Newly%20Released.jpg?raw=true
+    sort_title: !!RecentlyReleased
+    smart_label:
+      all:       
+        label: <<smart_label>>
+        unplayed: true
+      sort_by: release.desc
+      limit: 24
+    sync_mode: sync

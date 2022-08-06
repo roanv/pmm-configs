@@ -1,0 +1,47 @@
+templates:
+  franchise:
+    optional:
+      - name_mapping
+    cache_builders: 1
+    sync_mode: sync
+    collection_order: release.asc
+    collection_mode: hide_items
+
+collections:
+
+  The Lord of the Rings:
+    template:
+      - name: franchise
+    tmdb_collection_details: 119
+
+  The Hobbit:
+    template:
+      - name: franchise
+    tmdb_collection_details: 121938
+
+  "Star Wars: Skywalker Saga":
+    template:
+      - name: franchise
+    tmdb_collection_details: 10
+
+  "Thor":
+    template:
+      - name: franchise
+    tmdb_collection_details: 131296
+
+  "The Mummy":
+    template:
+      - name: franchise
+    tmdb_collection_details: 1733
+
+  "Pirates of the Caribbean":
+    template:
+      - name: franchise
+    tmdb_collection_details: 295
+
+  Alien:
+    template:    
+      - name: franchise
+    tmdb_collection_details: 
+      - 8091
+      - 135416

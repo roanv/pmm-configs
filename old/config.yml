@@ -1,0 +1,183 @@
+## This file is a template remove the .template to use the file
+
+libraries:                                      # This is called out once within the config.yml file
+  Movies:                                       # Each library must match the Plex library name
+    metadata_path:
+     - repo: https://github.com/roanvonb/pmm-configs
+
+#    - folder: config/movie
+
+#    - file: config/universe
+#    - file: config/franchise
+
+#    - git: PMM/genre
+#      template_variables:
+#        collection_section: '02'
+#        collection_mode: hide
+#        use_separator: false
+#    - git: PMM/studio
+#      template_variables:
+#        collection_section: '03'
+#        user_separator: false
+#        collection_mode: hide
+#    - git: PMM/movie/director
+#      template_variables:
+#        collection_section: '04'
+#        use_separator: false
+#        collection_mode: hide
+#    - git: PMM/actor
+#      template_variables:
+#        collection_section: '06'
+#        user_separator: false
+#        collection_mode: hide
+
+#    - git: PMM/movie/universe
+#      template_variables:
+#        collection_section: '11'
+#        use_separator: false
+#        collection_mode: hide_items
+
+#    - git: PMM/movie/franchise
+#      template_variables:
+#        collection_section: '12'
+#        use_separator: false
+#        collection_mode: hide_items
+
+#    operations:
+#      delete_unmanaged_collections: true
+#      delete_collections_with_less: 1
+#      assets_for_all: true
+#      mass_user_rating_update: mdb
+#  TV Shows:
+#    metadata_path:
+#    - folder: config/show
+#    operations:
+#      delete_unmanaged_collections: true
+#      delete_collections_with_less: 1
+#      mass_user_rating_update: tmdb
+
+#playlist_files:
+#- git: PMM/playlist                             # This is a file within the https://github.com/meisnate12/Plex-Meta-Manager-Configs Repository
+#- file: config/playlists
+settings:
+  cache: true
+  cache_expiration: 60
+  asset_directory:
+  - config/assets
+  asset_folders: true
+  asset_depth: 1
+  create_asset_folders: false
+  prioritize_assets: false
+  dimensional_asset_rename: false
+  download_url_assets: false
+  show_missing_season_assets: false
+  show_missing_episode_assets: false
+  show_asset_not_needed: true
+  sync_mode: append
+  minimum_items: 0
+  default_collection_order:
+  delete_below_minimum: true
+  delete_not_scheduled: false
+  run_again_delay: 2
+  missing_only_released: false
+  only_filter_missing: false
+  show_unmanaged: true
+  show_filtered: false
+  show_options: false
+  show_missing: true
+  show_missing_assets: true
+  save_report: false
+  tvdb_language: eng
+  ignore_ids:
+  ignore_imdb_ids:
+  item_refresh_delay: 0
+  playlist_sync_to_user: all
+  playlist_report: false
+  verify_ssl: true
+  custom_repo:
+  check_nightly: false
+webhooks:                                       # Can be individually specified per library as well
+  error:
+  version:
+  run_start:
+  run_end:
+  changes:
+plex:                                           # Can be individually specified per library as well; REQUIRED for the script to run
+  url: http://localhost:32400
+  token: dhB6uH9owSfzTNVu-AHp
+  timeout: 60
+  clean_bundles: true
+  empty_trash: true
+  optimize: true
+tmdb:                                           # REQUIRED for the script to run
+  apikey: d420c8c6f1c11fe812b0b1f1d64d483d
+  language: en
+  cache_expiration: 60
+  region:
+tautulli:                                       # Can be individually specified per library as well
+  url: http://localhost:8181/tautulli
+  apikey: 8MjaAnlIhQLUeo9bYxfSK7-42Ku6WH61
+omdb:
+  apikey: ########
+  cache_expiration: 60
+mdblist:
+  apikey: 8zbg4mzskcd0vcxvnlsvxrpyd
+  cache_expiration: 60
+notifiarr:
+  apikey: ####################################
+anidb:                                          # Not required for AniDB builders unless you want mature content
+  username: ######
+  password: ######
+  language: en
+radarr:                                         # Can be individually specified per library as well
+  url: http://localhost:7878/radarr
+  token: 2a1ec9ed53ca4ba08e8dbc99ecfb112a
+  add_missing: false
+  add_existing: false
+  root_folder_path: /home/roman/media/film
+  monitor: true
+  availability: announced
+  quality_profile: Ombi
+  tag: pmm
+  search: true
+  radarr_path:
+  plex_path:
+  upgrade_existing: false
+sonarr:                                         # Can be individually specified per library as well
+  url: http://192.168.1.12:8989
+  token: ################################
+  add_missing: false
+  add_existing: false
+  root_folder_path: S:/TV Shows
+  monitor: all
+  quality_profile: HD-1080p
+  language_profile: English
+  series_type: standard
+  season_folder: true
+  tag:
+  search: false
+  cutoff_search: false
+  sonarr_path:
+  plex_path:
+  upgrade_existing: false
+trakt:
+  client_id: 0ceeb6ca64e9f25eb72b99e61dd5eacf3e89d58a117f0d4d39d234d410164914
+  client_secret: 22cecc5147b001e42b8a23933c4be392fbee2e405e7410ed90495d092c829338
+  pin:
+  authorization:
+    # everything below is autofilled by the script
+    access_token: a50957d27bbd5e79407bd80945cff5ddd8617b2a7f692332acc0b494e305647e
+    token_type: Bearer
+    expires_in: 7889238
+    refresh_token: d94e32e17843667c653cd24bb6220bc44d85e3a494e2ae13fa356c5ec8c840c1
+    scope: public
+    created_at: 1659189199
+mal:
+  client_id: ################################
+  client_secret: ################################################################
+  authorization:
+    # everything below is autofilled by the script
+    access_token:
+    token_type:
+    expires_in:
+    refresh_token:

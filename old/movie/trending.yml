@@ -1,0 +1,33 @@
+collections:
+  Trending Movies:
+    ## BUILDER ##
+    trakt_chart:
+      - chart: trending
+        limit: 30
+    trakt_boxoffice: true
+    tmdb_trending_weekly: 30
+    tmdb_trending_daily: 30
+    imdb_chart: box_office
+    tautulli_popular:
+      list_days: 30
+      list_size: 30
+    tautulli_watched:
+      list_days: 30
+      list_size: 30
+    mdblist_list: 
+      url: https://mdblist.com/lists/linaspurinis/top-watched-movies-of-the-week
+      limit: 30
+    ## SMART LABEL ##
+    smart_label:
+      all:
+        label: <<smart_label>>
+        unplayed: true
+      limit: 24
+    ## FORMAT ##
+    url_poster: https://github.com/meisnate12/Plex-Meta-Manager-Images/blob/master/chart/Plex%20Popular.jpg?raw=true
+    visible_home: true
+    visible_shared: true
+    sort_title: !!Trending
+    collection_mode: hide
+    collection_filtering: user
+    sync_mode: sync

@@ -1,0 +1,19 @@
+collections:
+  Top Rated Movies:
+    ## BUILDER ##
+    imdb_chart: top_english
+    mdblist_list: https://mdblist.com/lists/roman22/toprated
+    ## SMART LABEL ##
+    smart_label:
+      all:
+        label: <<smart_label>>
+        unplayed: true
+      limit: 24
+    ## FORMAT ##
+    sync_mode: sync
+    collection_mode: hide
+    visible_home: true
+    visible_shared: true
+    sort_title: !!Top
+    collection_filtering: user
+    url_poster: https://github.com/meisnate12/Plex-Meta-Manager-Images/blob/master/chart/TMDb%20Top%20Rated.jpg?raw=true
