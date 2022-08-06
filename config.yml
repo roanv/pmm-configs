@@ -1,10 +1,10 @@
 libraries:
   Movies:
     metadata_path:
-      #    - repo: movie/recent
-      #    - repo: movie/trending
-      #    - repo: movie/top
-      #    - repo: movie/universe
+         - repo: movie/recent
+         - repo: movie/trending
+         - repo: movie/top
+         - repo: movie/universe
       - repo: movie/franchise
 settings:
   cache: true
