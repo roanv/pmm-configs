@@ -25,4 +25,4 @@ collections:
 
   DreamWorks:
     template: { name: studio }
-    tmdb_company: 512
+    tmdb_company: 521
