@@ -14,10 +14,14 @@ collections:
     template: { name: studio }
     tmdb_company: 10342
 
-  # Disney:
-  #   template: { name: studio }
-  #   tmdb_company: 6125
+  Disney:
+    template: { name: studio }
+    tmdb_company: 6125
 
-  # Pixar:
-  #   template: { name: studio }
-  #   tmdb_company: 3
+  Pixar:
+    template: { name: studio }
+    tmdb_company: 3
+
+  DreamWorks:
+    template: { name: studio }
+    tmdb_company: 512
