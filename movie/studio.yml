@@ -13,3 +13,8 @@ collections:
   Studio Ghibli:
     template: { name: studio }
     tmdb_company: 10342
+
+collections:
+  Disney:
+    template: { name: studio }
+    tmdb_company: 6125
