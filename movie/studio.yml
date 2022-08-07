@@ -8,6 +8,7 @@ templates:
     sort_title: "!<<collection_section>> <<sort>>"
     cache_builders: 1
     sync_mode: sync
+    minimum_items: 1
 
 collections:
   Studio Ghibli:
