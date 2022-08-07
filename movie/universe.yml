@@ -12,7 +12,11 @@ templates:
 collections:
   Star Wars Universe:
     template: { name: universe }
-    trakt_list: https://trakt.tv/users/zorge88/lists/star-wars
+    tmdb_collection:
+      - 10 # Star Wars
+    tmdb_movie:
+      - 330459 # rogue one
+      - 348350 # solo
 
   Marvel Cinematic Universe:
     template: { name: universe }
@@ -20,11 +24,15 @@ collections:
 
   Wizarding World:
     template: { name: universe }
-    trakt_list: https://trakt.tv/users/strangerer/lists/harry-potter
+    tmdb_collection:
+      - 1241 # harry potter
+      - 435259 # fantastic beasts
 
   Middle Earth:
     template: { name: universe }
-    trakt_list: https://trakt.tv/users/dybro/lists/lord-of-the-rings
+    tmdb_collection:
+      - 119 # the lord of the rings
+      - 121938 # The Hobbit
 
   Weyland Universe:
     template: { name: universe }
