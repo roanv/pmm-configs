@@ -1,0 +1,15 @@
+templates:
+  studio:
+    default:
+      collection_section: "2"
+      sort: <<collection_name>>
+    collection_mode: hide
+    collection_order: release
+    sort_title: "!<<collection_section>> <<sort>>"
+    cache_builders: 1
+    sync_mode: sync
+
+collections:
+  Studio Ghibli:
+    template: { name: studio }
+    tmdb_company: 10342
