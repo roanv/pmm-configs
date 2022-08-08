@@ -16,6 +16,6 @@ collections:
     visible_home: true
     visible_shared: true
     visible_library: false
-    sort_title: "!52 Top"
+    sort_title: "~52 Top"
     collection_filtering: user
     url_poster: https://github.com/meisnate12/Plex-Meta-Manager-Images/blob/master/chart/TMDb%20Top%20Rated.jpg?raw=true
