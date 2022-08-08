@@ -37,7 +37,7 @@ collections:
       - 119 # the lord of the rings
       - 121938 # The Hobbit
 
-  Weyland Universe:
+  Alien Universe:
     template: { name: universe }
     tmdb_collection:
       - 399 # predator
