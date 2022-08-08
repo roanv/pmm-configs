@@ -28,7 +28,7 @@ collections:
     visible_home: true
     visible_shared: true
     visible_library: true
-    sort_title: !01_Trending
+    sort_title: "!51 Trending"
     collection_mode: hide
     collection_filtering: user
     sync_mode: sync

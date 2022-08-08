@@ -9,7 +9,7 @@ collections:
     visible_shared: true
     visible_library: false
     url_poster: https://github.com/meisnate12/Plex-Meta-Manager-Images/blob/master/chart/Newly%20Released.jpg?raw=true
-    sort_title: !00_Recent
+    sort_title: "!50 Recent"
     smart_label:
       all:
         label: <<smart_label>>
