@@ -24,8 +24,9 @@ collections:
   Marvel Cinematic Universe:
     template: { name: universe }
     tmdb_keyword: 180547
-    trakt_list: https://trakt.tv/users/tetharion/lists/marvel-cinematic-universe
-    trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
+    trakt_list:
+      - https://trakt.tv/users/tetharion/lists/marvel-cinematic-universe
+      - https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
 
   Wizarding World:
     template: { name: universe }
