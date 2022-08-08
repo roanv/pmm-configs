@@ -15,6 +15,7 @@ dynamic_collections:
     addons:
       8091: # Alien
         - 135416 # Prometheus
+        - 697022 # Alien: Covenant Short Film Collection
       2806: # American Pie
         - 298820 # American Pie (Spin-off)
       87800: # Appleseed
@@ -47,6 +48,7 @@ dynamic_collections:
       535790: Godzilla (Anime)
     template_variables:
       movie:
+        8091: 588211, 588216, 588204, 588209, 588210, 588207 # Alien short films
         105995: 336560 # Anaconda: Lake Placid vs. Anaconda
         176097: 14177 # Barbershop: Beauty Shop
         448150: 567604 # Deadpool: Once Upon a Deadpool
