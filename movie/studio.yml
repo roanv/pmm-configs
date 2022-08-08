@@ -21,6 +21,7 @@ collections:
   Disney Animation:
     template: { name: studio }
     tmdb_company: 6125
+    imdb_list: https://www.imdb.com/list/ls059383351/
 
   Pixar Animation:
     template: { name: studio }
