@@ -17,3 +17,5 @@ collections:
   Buddy Cop:
     template: { name: genre }
     tmdb_keyword: 167316
+    imdb_list: https://www.imdb.com/list/ls079399999/
+    trakt_list: https://trakt.tv/users/mattgriff/lists/buddy-cops
