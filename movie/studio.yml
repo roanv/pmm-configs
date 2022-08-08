@@ -4,11 +4,14 @@ templates:
       collection_section: "2"
       sort: <<collection_name>>
     collection_mode: hide
-    collection_order: release
     sort_title: "!<<collection_section>> <<sort>>"
     cache_builders: 1
     sync_mode: sync
     minimum_items: 1
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
 
 collections:
   Studio Ghibli:
