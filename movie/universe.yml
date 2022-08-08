@@ -8,7 +8,7 @@ templates:
     cache_builders: 1
     sync_mode: sync
     smart_label:
-      sort_by: release.desc
+      sort_by: release.asc
       all:
         label: <<smart_label>>
 
