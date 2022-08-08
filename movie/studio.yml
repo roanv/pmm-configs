@@ -1,7 +1,7 @@
 templates:
   studio:
     default:
-      collection_section: "2"
+      collection_section: "02"
       sort: <<collection_name>>
     collection_mode: hide
     sort_title: "!<<collection_section>> <<sort>>"
