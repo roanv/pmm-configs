@@ -48,6 +48,7 @@ dynamic_collections:
       535790: Godzilla (Anime)
     template_variables:
       movie:
+        422837: 475946, 473072, 475759
         8091: 588211, 588216, 588204, 588209, 588210, 588207 # Alien short films
         105995: 336560 # Anaconda: Lake Placid vs. Anaconda
         176097: 14177 # Barbershop: Beauty Shop
