@@ -8,3 +8,9 @@ playlists:
     trakt_list: https://trakt.tv/users/travisg100/lists/the-essential-x-files-episodes
     summary: These are not the best episodes, but the ones most important for catching up with the X-Files mythology. With The X-Files revival, I figure people are going to start watching the series to catch up. It's a long series with a complicated plot, and only some of the episodes are about that plot. So for those wanting to rewatch the show but not sift through the entire series, these are the essential episodes of The X-Files. The first movie takes place between seasons five and six is and important. The second movie takes place after the series.
     url_poster: https://i.imgur.com/12qJEYr.jpg
+  Alien Universe (Timeline Order):
+     template:
+      - name: playlist
+      trakt_list: https://trakt.tv/users/roman22/lists/alien-universe-chronological
+      summary: All Alien, Predator, and Blade Runner movies, and shorts in chronological order.
+      url_poster: https://i.imgur.com/12qJEYr.jpg
