@@ -3,11 +3,14 @@ templates:
     default:
       collection_section: "11"
       sort: <<collection_name>>
-    collection_mode: hide_items
+    collection_mode: hide
     collection_order: release
     sort_title: "!<<collection_section>> <<sort>>"
     cache_builders: 1
     sync_mode: sync
+    smart_label:
+      all:
+        label: <<smart_label>>
 
 collections:
   Star Wars Universe:
