@@ -1,0 +1,19 @@
+templates:
+  genre:
+    default:
+      collection_section: "03"
+      sort: <<collection_name>>
+    collection_mode: hide
+    sort_title: "!<<collection_section>> <<sort>>"
+    cache_builders: 1
+    sync_mode: sync
+    minimum_items: 1
+    smart_label:
+      sort_by: release.asc
+      all:
+        label: <<smart_label>>
+
+collections:
+  Buddy Cop:
+    template: { name: genre }
+    tmdb_keyword: 167316
