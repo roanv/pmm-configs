@@ -6,6 +6,7 @@ collections:
     collection_mode: hide
     visible_home: true
     visible_shared: true
+    visible_shared: false
     url_poster: https://github.com/meisnate12/Plex-Meta-Manager-Images/blob/master/chart/Newly%20Released.jpg?raw=true
     sort_title: !!Recent
     smart_label:

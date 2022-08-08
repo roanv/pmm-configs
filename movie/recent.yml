@@ -4,10 +4,10 @@ collections:
     filters:
       released: 150
     collection_mode: hide
-    visible_library: true
     collection_filtering: user
     visible_home: true
     visible_shared: true
+    visible_library: false
     url_poster: https://github.com/meisnate12/Plex-Meta-Manager-Images/blob/master/chart/Newly%20Released.jpg?raw=true
     sort_title: !00_Recent
     smart_label:
