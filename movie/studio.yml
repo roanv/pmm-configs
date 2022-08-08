@@ -29,3 +29,9 @@ collections:
   DreamWorks:
     template: { name: studio }
     tmdb_company: 521
+
+metadata:
+  Castle in the Sky (1986):
+    studio: Studio Ghibli
+  Princess Mononoke (1997):
+    studio: Studio Ghibli
