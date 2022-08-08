@@ -11,6 +11,7 @@ templates:
       sort_by: release.asc
       all:
         label: <<smart_label>>
+    radarr_add_missing: true
 
 collections:
   Star Wars Universe:
