@@ -38,7 +38,7 @@ collections:
       - 119 # the lord of the rings
       - 121938 # The Hobbit
 
-  Alien Expanded Universe:
+  Alien Extended Universe:
     template: { name: universe }
     trakt_list: https://trakt.tv/users/roman22/lists/alien-universe-chronological
     tmdb_collection:
