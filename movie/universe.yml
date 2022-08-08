@@ -39,6 +39,7 @@ collections:
 
   Alien Universe:
     template: { name: universe }
+    trakt_list: https://trakt.tv/users/roman22/lists/alien-universe-chronological
     tmdb_collection:
       - 399 # predator
       - 8091 # alien
