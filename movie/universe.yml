@@ -3,7 +3,7 @@ templates:
     default:
       collection_section: "11"
       sort: <<collection_name>>
-    collection_mode: hide
+    collection_mode: show_items
     sort_title: "!<<collection_section>> <<sort>>"
     cache_builders: 1
     sync_mode: sync
