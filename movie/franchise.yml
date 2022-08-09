@@ -10,6 +10,7 @@ collections:
   Marvel One Shots:
     template: { name: franchise, value: 729425 }
     trakt_list: https://trakt.tv/users/armsaw/lists/marvel-one-shots
+    summary: "Marvel One-Shots are a series of direct-to-video short films produced by Marvel Studios, set within or inspired by the Marvel Cinematic Universe (MCU)."
 
 dynamic_collections:
   TMDb Collections:
