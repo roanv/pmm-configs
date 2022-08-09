@@ -8,8 +8,7 @@ templates:
 
 collections:
   Marvel One Shots:
-    template: { name: franchise }
-    value: 729425
+    template: { name: franchise, value: 729425 }
     trakt_list: https://trakt.tv/users/armsaw/lists/marvel-one-shots
 
 dynamic_collections:
