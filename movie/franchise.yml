@@ -21,7 +21,9 @@ collections:
     template: { name: franchise, value: 8091 }
     tmdb_collection:
       - 135416
-      - 697022
+  Alien Shorts:
+    template: { name: franchise, value: 697022 }
+    tmdb_collection:
       - 953685
     tmdb_movie: # short films
       - 588211
@@ -42,8 +44,6 @@ dynamic_collections:
       - 529 # Wallace & Gromit
       - 953685 # Peter Weyland Files
       - 8091 # Alien
-      - 697022 # Alien Covenant Short Film Collection
-      - 135416 # Prometheus
     addons:
       2806: # American Pie
         - 298820 # American Pie (Spin-off)
