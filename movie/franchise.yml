@@ -14,6 +14,9 @@ collections:
   Blade Runner:
     template: { name: franchise, value: 422837 }
     trakt_list: https://trakt.tv/users/darkman1498/lists/blade-runner
+  Wallace & Gromit:
+    template: { name: franchise, value: 529 }
+    trakt_list: https://trakt.tv/users/thecardinal/lists/wallace-gromit
 
 dynamic_collections:
   TMDb Collections:
@@ -23,6 +26,7 @@ dynamic_collections:
     exclude:
       - 729425
       - 422837
+      - 529
     addons:
       8091: # Alien
         - 135416 # Prometheus
