@@ -7,10 +7,13 @@ templates:
     collection_mode: hide_items
 
 collections:
-  Marvel One Shots:
+  Marvel One-Shots:
     template: { name: franchise, value: 729425 }
     trakt_list: https://trakt.tv/users/armsaw/lists/marvel-one-shots
     summary: "Marvel One-Shots are a series of direct-to-video short films produced by Marvel Studios, set within or inspired by the Marvel Cinematic Universe (MCU)."
+  Blade Runner:
+    template: { name: franchise, value: 422837 }
+    trakt_list: https://trakt.tv/users/darkman1498/lists/blade-runner
 
 dynamic_collections:
   TMDb Collections:
@@ -19,6 +22,7 @@ dynamic_collections:
     template: franchise
     exclude:
       - 729425
+      - 422837
     addons:
       8091: # Alien
         - 135416 # Prometheus
@@ -56,8 +60,6 @@ dynamic_collections:
       # 729425: Marvel One-Shots
     template_variables:
       movie:
-        # 729425: 211387, 76535, 253980, 119569, 76122 # Marvel One Shots
-        422837: 475946, 473072, 475759 # Blade Runner Shorts
         8091: 588211, 588216, 588204, 588209, 588210, 588207 # Alien short films
         105995: 336560 # Anaconda: Lake Placid vs. Anaconda
         176097: 14177 # Barbershop: Beauty Shop
