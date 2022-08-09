@@ -7,11 +7,6 @@ templates:
     collection_order: release
     collection_mode: hide_items
 
-collections:
-  Marvel One-Shots:
-    template: { name: franchise }
-    trakt_list: https://trakt.tv/users/armsaw/lists/marvel-one-shots
-
 dynamic_collections:
   TMDb Collections:
     type: tmdb_collection
@@ -56,7 +51,7 @@ dynamic_collections:
       # 729425: Marvel One-Shots
     template_variables:
       movie:
-        # 729425: 211387, 76535, 253980, 119569, 76122 # Marvel One Shots
+        729425: 211387, 76535, 253980, 119569, 76122 # Marvel One Shots
         422837: 475946, 473072, 475759 # Blade Runner Shorts
         8091: 588211, 588216, 588204, 588209, 588210, 588207 # Alien short films
         105995: 336560 # Anaconda: Lake Placid vs. Anaconda
