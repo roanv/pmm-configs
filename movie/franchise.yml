@@ -12,8 +12,6 @@ dynamic_collections:
     type: tmdb_collection
     remove_suffix: "Collection"
     template: franchise
-    exclude:
-      - 729425
     addons:
       8091: # Alien
         - 135416 # Prometheus
@@ -48,7 +46,7 @@ dynamic_collections:
       10: "Star Wars: Skywalker Saga"
       535313: Godzilla (MonsterVerse)
       535790: Godzilla (Anime)
-      # 729425: Marvel One-Shots
+      729425: Marvel One-Shots
     template_variables:
       movie:
         729425: 211387, 76535, 253980, 119569, 76122 # Marvel One Shots
