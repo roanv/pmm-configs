@@ -7,6 +7,11 @@ templates:
     collection_order: release
     collection_mode: hide_items
 
+collections:
+  Marvel One-Shots:
+    template: franchise
+    trakt_list: https://trakt.tv/users/pullsa/lists/marvel-one-shot-shorts-collection
+
 dynamic_collections:
   TMDb Collections:
     type: tmdb_collection
