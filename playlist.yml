@@ -13,7 +13,3 @@ playlists:
     trakt_list: https://trakt.tv/users/roman22/lists/alien-universe-chronological
     summary: All Alien, Predator, and Blade Runner movies, and shorts in chronological order.
     url_poster: https://i.imgur.com/M7tJjfl.jpg
-
-  Alien Expanded Universe (Timeline Order):
-    template: { name: playlist }
-    delete_playlist: true
