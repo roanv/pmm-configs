@@ -24,9 +24,10 @@ dynamic_collections:
     remove_suffix: "Collection"
     template: franchise
     exclude:
-      - 729425
-      - 422837
-      - 529
+      - 729425 # Marvel One Shots
+      - 422837 # Blade Runner
+      - 529 # Wallace & Gromit
+      - 953685 # Peter Weyland Files
     addons:
       8091: # Alien
         - 135416 # Prometheus
