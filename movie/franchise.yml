@@ -17,6 +17,18 @@ collections:
   Wallace & Gromit:
     template: { name: franchise, value: 529 }
     trakt_list: https://trakt.tv/users/thecardinal/lists/wallace-gromit
+  Alien:
+    template: { name: franchise, value: 8091 }
+    tmdb_collection:
+      - 135416
+      - 697022
+    tmdb_movie:
+      - 588211
+      - 588216
+      - 588204
+      - 588209
+      - 588210
+      - 588207
 
 dynamic_collections:
   TMDb Collections:
@@ -28,10 +40,8 @@ dynamic_collections:
       - 422837 # Blade Runner
       - 529 # Wallace & Gromit
       - 953685 # Peter Weyland Files
+      - 8091 # Alien
     addons:
-      8091: # Alien
-        - 135416 # Prometheus
-        - 697022 # Alien: Covenant Short Film Collection
       2806: # American Pie
         - 298820 # American Pie (Spin-off)
       87800: # Appleseed
@@ -65,7 +75,6 @@ dynamic_collections:
       # 729425: Marvel One-Shots
     template_variables:
       movie:
-        8091: 588211, 588216, 588204, 588209, 588210, 588207 # Alien short films
         105995: 336560 # Anaconda: Lake Placid vs. Anaconda
         176097: 14177 # Barbershop: Beauty Shop
         448150: 567604 # Deadpool: Once Upon a Deadpool
