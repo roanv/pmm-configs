@@ -1,8 +1,6 @@
 templates:
   franchise:
-    default:
-      tmdb_collection_details: <<value>>
-    cache_builders: 1
+    tmdb_collection_details: <<value>>
     minimum_items: 2
     sync_mode: sync
     collection_order: release
@@ -11,6 +9,7 @@ templates:
 collections:
   Marvel One Shots:
     template: { name: franchise }
+    value: 729425
     trakt_list: https://trakt.tv/users/armsaw/lists/marvel-one-shots
 
 dynamic_collections:
@@ -18,6 +17,8 @@ dynamic_collections:
     type: tmdb_collection
     remove_suffix: "Collection"
     template: franchise
+    exclude:
+      - 729425
     addons:
       8091: # Alien
         - 135416 # Prometheus
