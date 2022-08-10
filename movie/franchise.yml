@@ -21,10 +21,8 @@ collections:
     template: { name: franchise, value: 8091 }
     tmdb_collection:
       - 135416
-  Alien Shorts:
-    template: { name: franchise, value: 697022 }
-    tmdb_collection:
       - 953685
+      - 697022
     tmdb_movie: # short films
       - 588211
       - 588216
