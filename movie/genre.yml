@@ -9,7 +9,7 @@ templates:
     sync_mode: sync
     minimum_items: 1
     smart_label:
-      sort_by: release.asc
+      sort_by: release.desc
       all:
         label: <<smart_label>>
 
