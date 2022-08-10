@@ -28,3 +28,8 @@ collections:
     tmdb_keyword: 207046
     trakt_list: https://trakt.tv/users/giladg/lists/murder-mystery-movies
     trakt_list: https://trakt.tv/users/rizreflects/lists/murder-mysteries
+
+  Heist:
+    template: { name: genre }
+    tmdb_keyword: 10051
+    trakt_list: https://trakt.tv/users/jdublife/lists/heist-movies
