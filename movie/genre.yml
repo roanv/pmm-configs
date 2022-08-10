@@ -18,10 +18,12 @@ collections:
     template: { name: genre }
     tmdb_keyword: 167316
     trakt_list: https://trakt.tv/users/mattgriff/lists/buddy-cops
+    summary: Buddy cop is a film and television genre with plots involving two people of very different and conflicting personalities who are forced to work together to solve a crime and/or defeat criminals, sometimes learning from each other in the process.
 
   Spaghetti Western:
     template: { name: genre }
     tmdb_keyword: 156212
+    summary: The Spaghetti Western is a broad subgenre of Western films produced in Europe. It emerged in the mid-1960s in the wake of Sergio Leone's film-making style and international box-office success. The term was used by foreign critics because most of these Westerns were produced and directed by Italians.
 
   Murder Mystery:
     template: { name: genre }
@@ -29,8 +31,10 @@ collections:
     trakt_list:
       - https://trakt.tv/users/giladg/lists/murder-mystery-movies
       - https://trakt.tv/users/rizreflects/lists/murder-mysteries
+    summary: The murder mystery genre is a sub-genre of the crime genre. The stories in the murder mystery genre involve a mystery-type investigation surrounding a crime, often homicide; the investigator who seeks to find the murderer may also find their loved ones in danger because of the investigation.
 
   Heist:
     template: { name: genre }
     tmdb_keyword: 10051
     trakt_list: https://trakt.tv/users/jdublife/lists/heist-movies
+    summary: The heist film or caper film is a subgenre of crime film focused on the planning, execution, and aftermath of a significant robbery. One of the early defining heist films was The Asphalt Jungle, which Film Genre 2000 wrote "almost single-handedly popularized the genre for mainstream cinema".
