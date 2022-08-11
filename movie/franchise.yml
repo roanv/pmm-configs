@@ -1,10 +1,7 @@
 templates:
   franchise:
-    minimum_items: 2
-    sync_mode: sync
-    collection_order: release
-    collection_mode: hide_items
-  tmdb_franchise:
+    optional:
+      - value
     tmdb_collection_details: <<value>>
     minimum_items: 2
     sync_mode: sync
@@ -13,17 +10,17 @@ templates:
 
 collections:
   Marvel One-Shots:
-    template: { name: tmdb_franchise, value: 729425 }
+    template: { name: franchise, value: 729425 }
     trakt_list: https://trakt.tv/users/armsaw/lists/marvel-one-shots
     summary: "Marvel One-Shots are a series of direct-to-video short films produced by Marvel Studios, set within or inspired by the Marvel Cinematic Universe (MCU)."
   Blade Runner:
-    template: { name: tmdb_franchise, value: 422837 }
+    template: { name: franchise, value: 422837 }
     trakt_list: https://trakt.tv/users/darkman1498/lists/blade-runner
   Wallace & Gromit:
-    template: { name: tmdb_franchise, value: 529 }
+    template: { name: franchise, value: 529 }
     trakt_list: https://trakt.tv/users/thecardinal/lists/wallace-gromit
   Alien:
-    template: { name: tmdb_franchise, value: 8091 }
+    template: { name: franchise, value: 8091 }
     tmdb_collection:
       - 135416
       - 953685
@@ -47,7 +44,7 @@ dynamic_collections:
   TMDb Collections:
     type: tmdb_collection
     remove_suffix: "Collection"
-    template: tmdb_franchise
+    template: franchise
     exclude:
       - 729425 # Marvel One Shots
       - 422837 # Blade Runner
