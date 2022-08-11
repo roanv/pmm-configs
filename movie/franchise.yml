@@ -34,7 +34,7 @@ collections:
       - 588209
       - 588210
       - 588207
-  Man with No Name:
+  The Man with No Name:
     template: { name: franchise, mode: show_items }
     tmdb_movie:
       - 938
