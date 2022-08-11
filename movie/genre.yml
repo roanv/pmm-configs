@@ -39,7 +39,7 @@ collections:
     trakt_list: https://trakt.tv/users/jdublife/lists/heist-movies
     summary: The heist film or caper film is a subgenre of crime film focused on the planning, execution, and aftermath of a significant robbery. One of the early defining heist films was The Asphalt Jungle, which Film Genre 2000 wrote "almost single-handedly popularized the genre for mainstream cinema".
 
-  Gangster Drama:
+  Gangster:
     template: { name: genre }
     imdb_list: https://www.imdb.com/search/keyword/?keywords=gangster,murder,organized-crime,violence&genres=Crime,Drama
     summary: A gangster film or gangster movie is a film belonging to a genre that focuses on gangs and organized crime. It is a subgenre of crime film, that may involve large criminal organizations, or small gangs formed to perform a certain illegal act.
