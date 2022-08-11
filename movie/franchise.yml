@@ -1,7 +1,7 @@
 templates:
   franchise:
     default:
-      - mode: hide_items
+      mode: hide_items
     optional:
       - value
     tmdb_collection_details: <<value>>
