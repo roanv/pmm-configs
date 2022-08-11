@@ -1,12 +1,14 @@
 templates:
   franchise:
+    default:
+      - mode: hide_items
     optional:
       - value
     tmdb_collection_details: <<value>>
     minimum_items: 2
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    collection_mode: <<mode>>
 
 collections:
   Marvel One-Shots:
@@ -33,7 +35,7 @@ collections:
       - 588210
       - 588207
   Man with No Name:
-    template: { name: franchise, value: 8091 }
+    template: { name: franchise, mode: show_items }
     tmdb_movie:
       - 938
       - 391
