@@ -2,7 +2,7 @@ collections:
   Top Rated Shows:
     ## BUILDER ##
     imdb_chart: top_shows
-    mdblist_list: https://mdblist.com/lists/roman22/toprated
+    mdblist_list: https://mdblist.com/lists/roman22/top-rated-tv/
     tmdb_top_rated: 250
     ## SMART LABEL ##
     smart_label:

@@ -1,9 +1,6 @@
 collections:
   Recently Released Episodes:
     builder_level: episode
-    # plex_all: true
-    # filters:
-    # released: 30
     collection_mode: hide
     visible_home: true
     visible_shared: true
@@ -13,9 +10,5 @@ collections:
     smart_filter:
       all:
         episode_air_date: 30
-        # label: <<smart_label>>
-        # episode_unplayed: true
       sort_by: episode_release.desc
-      limit: 24
-    # collection_filtering: user
     sync_mode: sync
