@@ -13,7 +13,7 @@ collections:
     smart_label:
       all:
         label: <<smart_label>>
-        unplayed: true
+        episode_unplayed: true
       sort_by: episode_release.desc
       limit: 24
     collection_filtering: user
