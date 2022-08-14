@@ -1,0 +1,20 @@
+collections:
+  Recently Released Episodes:
+    builder_level: episode
+    plex_all: true
+    filters:
+      released: 30
+    collection_mode: hide
+    visible_home: true
+    visible_shared: true
+    visible_library: false
+    url_poster: https://github.com/meisnate12/Plex-Meta-Manager-Images/blob/master/chart/Newly%20Released.jpg?raw=true
+    sort_title: "~50 Recent Episodes"
+    smart_label:
+      all:
+        label: <<smart_label>>
+        unplayed: true
+      sort_by: episode_release.desc
+      limit: 24
+    collection_filtering: user
+    sync_mode: sync
